@@ -20,7 +20,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/film")
-@Api(value = "FilmRest", tags = "Gestione film")
 public class FilmRestController {
 
 	
